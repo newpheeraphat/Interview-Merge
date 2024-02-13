@@ -8,4 +8,10 @@ describe('merge all three collection with sorted collection', () => {
       1, 2, 3, 4, 5, 6, 7, 8, 9,
     ]);
   });
+
+  test('merge three collection to sorted collection', () => {
+    expect(merge([27, 29, 50], [24, 18, 10], [34, 40, 50])).toStrictEqual([
+      10, 18, 24, 27, 29, 34, 40, 50, 50
+    ]);
+  });
 })
