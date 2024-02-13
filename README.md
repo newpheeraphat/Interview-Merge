@@ -57,6 +57,12 @@ After installing the dependencies, you can start the development server by runni
 ### 4. Next Steps
 Explore the TypeScript documentation to learn more about features you can use to enhance your application: https://www.typescriptlang.org/
 
+### 5. Testing
+* vitest
+  ```sh
+  npm run test
+  ```
+
 ### Prerequisites
 
 
